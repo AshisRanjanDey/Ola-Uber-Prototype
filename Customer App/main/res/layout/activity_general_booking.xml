@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yourscab.mobile.subactivities.GeneralBookingActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.yourscab.mobile.libs.CustomScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:visibility="gone"
+                    android:id="@+id/traveller_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:hint="Traveller Name: "
+                    android:inputType="textPersonName"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:visibility="gone"
+                    android:id="@+id/traveller_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:hint="Phone Number: "
+                    android:inputType="phone"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+
+                <EditText
+                    android:visibility="gone"
+                    android:id="@+id/number_passenger"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:hint="Passenger Number"
+                    android:inputType="numberDecimal"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="10dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#fff"
+                    app:cardElevation="8dp">
+
+                    <TextView
+                        android:id="@+id/price_distance_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="This is the text something"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:id="@+id/map_location">
+                    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:id="@+id/map"
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:context=".subactivities.GeneralBookingActivity"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </com.yourscab.mobile.libs.CustomScrollView>
+    </LinearLayout>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_alignParentBottom="true"
+        android:id="@+id/confirm_booking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="Confirm Booking"
+
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

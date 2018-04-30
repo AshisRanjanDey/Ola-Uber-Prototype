@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yourscab.mobile.signup_signin.SignUp">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+            <EditText
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="What's your name?"
+                android:inputType="textPersonName"
+                android:maxLength="40"
+                android:textColor="#333"
+                android:textSize="20sp" />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:maxLength="40"
+            android:textColor="#333"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btn_login"
+            android:layout_width="200dp"
+            android:background="#ff8c00"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="24dp"
+            android:text="Next"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

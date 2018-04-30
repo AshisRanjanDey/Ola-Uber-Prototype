@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_selector">#EFEF33</color>
+
+    <color name="primary_dark">#3F1D5D</color>
+
+    <color name="primary">#F32333</color>
+    <color name="primary_light">#FF3323</color>
+    <color name="accent">#FFF333</color>
+    <color name="grey">#787070</color>
+    <color name="medium_grey">#8c8282</color>
+
+
+</resources>

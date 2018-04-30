@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">mobile</string>
+
+    <string name="title_booking">Booking</string>
+    <string name="title_tourist">Tourist</string>
+    <string name="title_myorders">My Orders</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_maps">MapActivity</string>
+</resources>
