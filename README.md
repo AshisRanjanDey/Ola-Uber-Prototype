@@ -1,6 +1,5 @@
 # Ola-Uber-Prototype
-Book taxi, cab, car or plan outstation trips and tours
-Ola/Uber Prototype
+Book taxi, cab, car or plan outstation trips and tours--->
 •Two android apps developed for customer and cab driver separately.
 •GPS location of driver and customer can be seen at realtime (implemented using Google Maps api).
 •Admin module in driver app to manage cab drivers.
